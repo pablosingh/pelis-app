@@ -1,0 +1,81 @@
+
+.containerMovie {
+  margin: 0 auto;
+  min-width: 700px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-card {
+  font: 14px/22px "Lato", Arial, sans-serif;
+  color: #A9A8A3;
+  background: #4d4d4d;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  padding: 1em 2em;
+}
+.img-And-Details{
+  display: flex;
+  justify-content: space-around;
+}
+.details-Card{
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.5em;
+}
+.titleCard {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.details {
+  padding: 50px 0 0 50px;
+}
+
+.title span {
+    margin-left: 12px;
+    background: #C4AF3D;
+    border-radius: 5px;
+    color: #544C21;
+    font-size: 14px;
+    padding: 0px 4px;
+  }
+.description {
+  bottom: 0px;
+  height: 200px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #B1B0AC;
+  
+}
+.column {
+    padding-left: 41px;
+    padding-top: 30px;
+    margin-left: 20px;
+    width: 480px;
+}
+
+.img-Movie{
+  width: 400px;
+  height: 400px;
+  margin: 1em 1.5em;
+}
+
+.img img {
+  width: 200px;
+  height: 210px;
+  padding-left: 50px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+
