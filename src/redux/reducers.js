@@ -1,7 +1,9 @@
-import { GET_MOVIES, 
+import { 
+    GET_MOVIES, 
     GET_MOVIE_DETAIL, 
     ADD_MOVIE_FAVORITE, 
-    REMOVE_MOVIE_FAVORITE  } from '../actions/index'
+    REMOVE_MOVIE_FAVORITE  
+} from './actions';
 
 const initialState = {
     moviesFavourites: [],

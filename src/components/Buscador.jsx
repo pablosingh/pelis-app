@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from 'react-router-dom';
-import './Buscador.css';
+// import './Buscador.css';
 
-import { addMovieFavorite, getMovies } from '../../actions'
+import { addMovieFavorite, getMovies } from '../redux/actions';
 
 export class Buscador extends Component {
   constructor(props) {
